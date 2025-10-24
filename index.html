@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head> <meta charset="UTF-8"> <title>My little page</title> <meta name="author" content="Miki14"> <link href="css/styler.css" rel="stylesheet" type="text/css" media="all" /> <link href="css/skeleton.css" rel="stylesheet" type="text/css" media="all" /> <link href="css/normalize.css" rel="stylesheet" type="text/css" media="all" /> <link rel="icon" type="image/png" href="images/www.png"> </head>
+      <body> 
+        <!--oggetti sito-->
+       <!-- Banner Cookie con effetto fade-in -->
+<style>
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    z-index: 1000;
+  }
+
+  #cookie-banner.show {
+    display: block;
+    opacity: 1;
+  }
+
+  .cookie-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .accept {
+    background-color: #27ae60;
+    color: white;
+  }
+
+  .decline {
+    background-color: #c0392b;
+    color: white;
+  }
+</style>
+
+<div id="cookie-banner">
+  <p>Questo sito utilizza cookie per migliorare l'esperienza di navigazione. <a href="C:\Users\Miki\Desktop\sito web\cookie-policy.html" style="color: #f39c12;">Scopri di più</a>.</p>
+  <button class="cookie-btn accept" onclick="setCookieConsent(true)">Accetta</button>
+  <button class="cookie-btn decline" onclick="setCookieConsent(false)">Rifiuta</button>
+</div>
+
+<script>
+  function setCookieConsent(consent) {
+    localStorage.setItem("cookieConsent", consent ? "accepted" : "declined");
+    document.getElementById("cookie-banner").style.display = "none";
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    if (!localStorage.getItem("cookieConsent")) {
+      document.getElementById("cookie-banner").classList.add("show");
+    }
+  });
+</script>
+        <h1>My little page - Miki14</h1> 
+        <p>qui si usa <img src="images/scratch.svg" alt="immagine scratch su sfondo giallo" width="100" valign="baseline"> <br />
+           <P><audio controls>
+         <source src="C:\Users\Miki\Documents\Registrazioni di suoni\The Salinewin.exe Song.m4a" type="audio/mpeg">
+          Il tuo browser non supporta l'elemento audio.
+        </audio></P> 
+        <P><audio controls>
+         <source src="C:\Users\Miki\Documents\Registrazioni di suoni\sprunki.mp3" type="audio/mpeg">
+          Il tuo browser non supporta l'elemento audio.
+        </audio></P> 
+           <p>Here some downloads<img src="C:\Users\Miki\Desktop\sito web\images\download_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="download_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24" width="100" valign="baseline"></p></p>
+            progetto scratch su <a href="C:\Users\Miki\Desktop\sito web\progetto scratch.html"> progetto.html </a><br /> oppure <a href="C:\Users\Miki\Desktop\sito web\IL NUMERO ver.2.html">il questionario</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\lbp.html">preview littlebigplanet on spotify</a><br /> <a href="C:\Users\Miki\Desktop\sito web\dload\stupbb.exe">blockbench (win 10 e 11)</a><br /> 
+         <a href="C:\Users\Miki\Desktop\sito web\dload\setupsheep.exe">sheep (all windows)</a><br /> <a href="c:\Users\Miki\Desktop\sito web\dload\setup2.exe">blockbench (only XP)</a><br />
+         <a href="c:\Users\Miki\Desktop\sito web\dload\my setup.exe">my application (all windows)</a><br /> 
+         <a href="C:\Users\Miki\Desktop\sito web\dload\IFSETUP.exe">InstallForge (all windows)</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\BSoD.html">BSoD</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\virus.html">storia virus</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\virus defender.html">virus defender</a><br /> 
+          <a href="C:\Users\Miki\Desktop\sito web\Incredibox - Sprunki (Pyramixed)(UPDATED).html">Sprunki Pyramixed</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\DLD.HTML">Sprunki Pyramixed Download</a><br /> 
+          <a href="http://getskeleton.com">skeleton! A dead simple, responsive boilerplate.</a><br />
+          <a href="C:\users\miki\desktop\sito web\windows.html">La storia di Windows</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\chatgpt.html">chatgpt (beta)(work in progress) </a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\feedback.html">FEEDBACK</a><br /> 
+          <a href="C:\Users\Miki\Desktop\sito web\dload\SETUPMEMORYRAM+.exe">memoryram+</a></p><br /> 
+          <a href="C:\Users\Miki\Desktop\sito web\virus download and dimostration.html">VIRUS 2</a><br /> 
+          <a href="C:\Users\Miki\Desktop\sito web\dload\exromentiumset.exe">exromentiumset (all windows)</a><br />
+          <a href="C:\Users\Miki\Desktop\sito web\eraser.exe  (epilessy warmning).html">eraser.exe on scratch</a><br />  
+         <a href="C:\Users\Miki\Desktop\sito web\dload\wbsite.exe">wbsite (all windows)</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\dload\setupMYbro.exe">new things</a><br />
+         more here <a href="C:\Users\Miki\Desktop\sito web\404.html">more and more</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\Y.A.B.O.S.M.html">Y.A.B.O.S.M</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\haha.html">HaHa</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\GIFs.html">some gif</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\SONIC.EXE.html">2011 X</a><br />
+         <a href="C:\Users\Miki\Desktop\sito web\bytebeat.html">ByteBeat</a><br />
+         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3bhBL2Q9P5sgISl0NCpVdt" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/68YaGGMA23a30IRQAFp1RR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+         <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2guADFYssyi5w2XVCMATYw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+         <p><a href="C:\Users\Miki\Desktop\sito web\PONG.html">!PONG!</a><br /></p> 
+         <a href="https://virtualbox.org" onclick="window.open('https://virtualbox.org','prova','height=400,width=500,scrollbars')"> virtualbox site </a><br />
+         <a class="button button-primary" href="C:\Users\Miki\Desktop\sito web\index.html">reload page</a><br />
+         <br /> <hr /> <iframe width="110" height="200" src="https://www.myinstants.com/instant/windows-10-error-sound-69419/embed/" frameborder="0" scrolling="no"></iframe> <iframe width="110" height="200" src="https://www.myinstants.com/instant/claps-61091/embed/" frameborder="0" scrolling="no"></iframe> <iframe width="110" height="200" src="https://www.myinstants.com/instant/goofy-ahh-sounds-96639/embed/" frameborder="0" scrolling="no"></iframe> <iframe width="110" height="200" src="https://www.myinstants.com/instant/samsung-pro-hd-70700/embed/" frameborder="0" scrolling="no"></iframe> <iframe width="110" height="200" src="https://www.myinstants.com/instant/samsung-s6-intro-15105/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/sprunked-garnold-ringtone-59565/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/mr-sun-sprunked-74625/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/alarme-samsung-estourado-ofc-jund-pbs-39599/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/samsung-rap-song-earrape-31487/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/alarma-saturada-21461/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/samsung-tune-56872/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/rickrooll-but-bad-93035/embed/" frameborder="0" scrolling="no"></iframe><iframe width="110" height="200" src="https://www.myinstants.com/instant/galaxy-meme-18643/embed/" frameborder="0" scrolling="no"></iframe>
+        <hr />
+      <div id="file-inputs" class="fieldset">
+       <p id="yui_3_11_0_1_1422829866771_374">
+       <p>*.jpeg</p><label for="file1" class="obscured">Choose an image to upload</label><input name="file1" id="file1" type="file" accept=".jpeg"></p>
+       <p>*.png</p><label for="file2"class="obscured">Choose an image to upload</label><input name="file2" id="file2" type="file" accept=".png"></p>
+       <p>*.svg</p><label for="file3"class="obscured">Choose an image to upload</label><input name="file3" id="file3" type="file" accept=".svg"></p>
+       <p>*.jpg</p><label for="file4"class="obscured">Choose an image to upload</label><input name="file4" id="file4" type="file" accept=".jpg"></p>
+       <input class="button-primary" type="submit" value="Inoltra">
+       <hr />
+
+         <!-- Feedback Form -->
+        <p>FEEDBACK</p>
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <label for="exampleEmailInput">Your email</label>
+                    <input class="u-full-width" type="email" placeholder="Inserisci la tua email" id="exampleEmailInput">
+                </div>
+                <div class="six columns">
+                    <label for="exampleRecipientInput">Motivo del contatto</label>
+                    <select class="u-full-width" id="exampleRecipientInput">
+                        <option value="Option 1">Domande</option>
+                        <option value="Option 2">Dimmi qualcosa</option>
+                        <option value="Option 3">Problema</option>
+                    </select>
+                </div>
+            </div>
+            <label for="exampleMessage">Messaggio</label>
+            <textarea class="u-full-width" placeholder="Scrivi qui il tuo messaggio..." id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+                <input type="checkbox">
+                <span class="label-body">Invia una copia a te stesso</span>
+            </label>
+            <input class="button-primary" type="submit" value="Invia">
+        </form>
+
+         <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% --> </body> <p>download by:<a href="https://installforge.net/download/">InstallForge</a></p> <p>song downloaded on: <a href="https://www.spotify.com/it/download/">spotify</a></p> <p>effect button downloaded on: <a href="https://www.myinstants.com/">myinstantssound</a></p> 
+         <p>github profile: <a href="https://github.com/sussybakaman14">SussyBakaMan14</a></p> </html>
+         <h2>SOME GAMES</h2>
+         <p><iframe src="https://scratch.mit.edu/projects/1121218484/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\sprunked photo 1.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\sprunked photo 2.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\sprunked photo 3.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\sprunked photo 4.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\sprunked photo 5.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\Screenshot 2025-05-30 152528.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\Screenshot 2025-05-29 182908.png" alt="testo_alternativo"></p>
+         <p><img src="C:\Users\Miki\Pictures\Screenshots\Screenshot 2025-05-30 152214.png" alt="testo_alternativo"></p>
+         <p><iframe src="https://sprunki.org/online" width="100%" height="600px" frameborder="0" allowfullscreen></iframe></p>
+         <p>
+  <iframe 
+    src="https://sprunkiplay.com/sprunki-but-wenda-vs-simon-treatment/" 
+    width="800" 
+    height="600" 
+    style="border: none;" 
+    allowfullscreen>
+  </iframe>
+</p>
+
+         <p><iframe src="https://kbhgames.com/game/sprunki-dash-2-0" frameborder="0" scrolling="no" width="800" height="635" allowfullscreen></iframe></p>
+         <p><iframe src="https://pyramixed.com/" width="800" height="600" style="border:none;" allowfullscreen></iframe></p>
+         <p><strong>SECOND VERSION</strong></p>
+         <p><iframe src="https://www.fnfgo.com/sprunki-wenda-treatment/" width="800" height="600" style="border:none; "></iframe></p>
+         <p><iframe src="https://www.gameflare.com/embed/sprunki-pyramixed-squid-game/" frameborder="0" scrolling="no" width="800" height="635" allowfullscreen></iframe></p>
+         <p><iframe src="https://www.gameflare.com/embed/scrunkly-revamped/" frameborder="0" scrolling="no" width="800" height="485" allowfullscreen></iframe></p>
+         <p><iframe src="https://sprunkiplay.com/sprunki-scrunkly/" width="100%" height="600" style="border: none;" loading="lazy" allowfullscreen></iframe></p>
+         <p><iframe src="https://sprunkiplay.com/yet-another-boring-old-sprunki-mod/" width="100%"   height="600"   style="border:none;" loading="lazy"allowfullscreen></iframe></p>
+         <p><iframe src="https://gosuperfunny.com/sprunki-polo-treatment/index.html" width="100%"   height="600"   style="border:none;" loading="lazy"allowfullscreen></iframe></p>
+         <video width="690" height="360" controls>
+  <source src="C:\Users\Miki\Desktop\sito web\multimedia\sprunki old mod gameplay.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.                         
+</video>
+<video width="690" height="360" controls>
+  <source src="C:\Users\Miki\Desktop\sito web\multimedia\sprunki all alive phase 4 gameplay.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.                         
+</video>
+<video width="690" height="360" controls>
+  <source src="C:\Users\Miki\Desktop\sito web\multimedia\sprunki MSI phase 3.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.                         
+</video>
+<video width="690" height="360" controls>
+  <source src="C:\Users\Miki\Desktop\sito web\multimedia\sprunki retake gameplay.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.                         
+</video>
+<video width="690" height="360" controls>
+  <source src="C:\Users\Miki\Desktop\sito web\multimedia\sprunki polo edition gameplay.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.                         
+</video>
+
